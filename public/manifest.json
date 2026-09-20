@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Okul Asistanı",
+  "short_name": "OkulAsistan",
+  "description": "Modern ders programı, ödev takibi, sınav takvimi, Pomodoro ve Gemini Yapay Zekâ Danışmanı.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

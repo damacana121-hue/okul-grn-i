@@ -1,0 +1,6 @@
+{
+  "name": "Okul Asistanı",
+  "description": "Öğrenciler için modern ders programı, ödev takibi, sınav takvimi, not hesaplama, akıllı okul çantası, Pomodoro ve Gemini Yapay Zekâ Danışmanı içeren kapsamlı okul asistanı Android uygulaması.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

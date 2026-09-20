@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e7ff" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle for Android adaptive icon safe zone -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)" />
+
+  <!-- Subtle glow ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" stroke-dasharray="8 8" />
+
+  <!-- Graduation Cap & Book Centerpiece -->
+  <g transform="translate(0, 10)">
+    <!-- Open Book Pages -->
+    <path d="M 120 330 C 180 300 240 310 256 330 C 272 310 332 300 392 330 L 392 220 C 332 190 272 200 256 220 C 240 200 180 190 120 220 Z" 
+          fill="url(#bookGrad)" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.3))" />
+    
+    <!-- Spine line -->
+    <path d="M 256 220 L 256 335" stroke="#4f46e5" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Cap Mortarboard -->
+    <polygon points="256,130 380,180 256,230 132,180" fill="#1e1b4b" />
+    <polygon points="256,134 374,180 256,226 138,180" fill="#312e81" />
+    
+    <!-- Skullcap below mortarboard -->
+    <path d="M 180 198 C 180 235 332 235 332 198" fill="#1e1b4b" />
+    
+    <!-- Tassel -->
+    <path d="M 256 180 Q 340 195 348 245" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" />
+    <circle cx="348" cy="250" r="7" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- AI Sparkle 1 (Top right) -->
+  <path d="M 380 110 Q 380 135 405 135 Q 380 135 380 160 Q 380 135 355 135 Q 380 135 380 110 Z" fill="url(#goldGrad)" />
+
+  <!-- AI Sparkle 2 (Left middle) -->
+  <path d="M 115 250 Q 115 268 133 268 Q 115 268 115 286 Q 115 268 97 268 Q 115 268 115 250 Z" fill="#38bdf8" />
+  
+  <!-- Star (Bottom right) -->
+  <circle cx="390" cy="380" r="10" fill="#a78bfa" />
+</svg>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Okul Asistanı</string>
+    <string name="notification_channel_name">Okul Asistanı Bildirimleri</string>
+    <string name="notification_channel_desc">Ders, ödev, sınav ve çanta hatırlatmaları</string>
+</resources>
